@@ -139,7 +139,7 @@ header nav a{
 
 /********************MAIN*********************/
 main section{
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 .pic{
@@ -216,10 +216,13 @@ max-width:100% ;
 footer{
   background-color: #23272A;
   color: white;
+  font-family:  Helvetica, sans-serif;
+  padding-top: 120px;
 }
 
 footer .row{
   display: flex;
+  padding-bottom: 20px;
 }
 
 footer .contatti{
@@ -228,7 +231,11 @@ flex-wrap: wrap;
 }
 
 footer .end{
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #57595F;
+  padding: 20px 0 40px 0;
 }
 
 footer .contatti .col{
@@ -243,3 +250,48 @@ footer .row .col:first-child{
   text-align: left;
 }
 
+footer .button{
+  background-color: #8EA1E2;
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  color: white;
+  border-radius: 15px;
+  padding: 7px 10px;
+  margin-top: 5px;
+}
+
+footer .title{
+  color: #8EA1E2;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+footer .footer-col{
+list-style-type: none;
+line-height: 25px;
+font-size: 11px;
+}
+
+footer .footer-col li:first-child{
+  color: #8EA1E2;
+}
+
+footer .footer-t{
+ margin: 10px 0;   
+ word-spacing: 5px; 
+ font-size: 11px;
+} 
+
+footer .icons{
+word-spacing: 10px;
+}
+
+.footer.t::before{
+content: url(/img/ita.png); 
+}
+
+.end img{
+  vertical-align: middle;
+  padding-top: 15px;
+  width: 80px;
+}
