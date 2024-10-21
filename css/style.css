@@ -26,8 +26,31 @@
   font-family: Helvetica, sans-serif;
   font-size: 11px;
   color: white;
-  line-height: 15px;
+  line-height: 18px;
 }
+
+.button{
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  color: black;
+  border-radius: 15px;
+  padding: 10px 15px
+}
+
+.bg-black{
+  background-color: #25262A;
+  color: white;
+}
+
+.button:hover{
+  background-color: rgba(211, 211, 211, 0.596);
+}
+
+.bg-black:hover{
+  background-color: #25262a8a;
+}
+
 
 
 /*************HEADER**************/
@@ -40,6 +63,8 @@ header .header-hero{
   background-image: url(/img/jumbo.png);
   background-repeat: no-repeat;
   background-size: 100%;
+  min-height: 400px;
+  block-size: auto;
 }
 
 header .row{
@@ -58,11 +83,11 @@ header .row nav ul{
   align-items: center;
   flex-wrap: wrap;
 }
+
 header .row nav ul li{
   padding: 10px 10px;
   border: 1px solid black;
   margin: 0;
-
 }
 
 header a{
@@ -73,12 +98,21 @@ header nav a{
   text-transform: capitalize;
 }
 
+.header-top .button{
+  padding: 7px 10px;
+}
+
 .hero{
   max-width: 500px;
   width: 65%;
-  padding: 30px 0;
+  padding-top: 100px;
   text-align: center;
-  }
+  align-items: center;
+}
+
+.header-hero .title, .header-hero .parag{
+  color: white;
+}
 
 .hero .buttons ul{
   display: flex;
@@ -89,9 +123,8 @@ header nav a{
 }
 
 .hero .buttons ul li{
-  padding: 10px 10px;
-  border: 1px solid black;
-  margin: 0 15px;
+ margin: 20px 10px;
+  font-family: Helvetica, sans-serif;
 }
 
 /********************MAIN*********************/
@@ -110,7 +143,7 @@ max-width:100% ;
 }
 .txt{
   width: 40%;
-  padding: 30px 8%;
+  padding: 30px 9%;
 }
 
 .title,.c-black{
@@ -142,6 +175,24 @@ max-width:100% ;
 
 #tecnologia .container{
   text-align: center;
+}
+
+#tecnologia .parag{
+  padding: 0 10%;
+}
+
+#tecnologia .stars{
+  font-weight: 600;
+  font-family:  Helvetica, sans-serif;
+  line-height: 50px;
+  background-image: url(/img/stars.svg);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: center;
+}
+
+#tecnologia .buttons{
+  line-height: 50px;
 }
 /***************** FOOTER ********************/
 footer{
