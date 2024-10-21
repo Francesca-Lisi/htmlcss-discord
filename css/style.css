@@ -59,6 +59,12 @@ height: 50px;
 background-color: #3160E0;
 }
 
+header .header-top .logo img{
+vertical-align: middle;
+padding-top: 10px;
+width: 80px;
+}
+  
 header .header-hero{
   background-image: url(/img/jumbo.png);
   background-repeat: no-repeat;
@@ -78,7 +84,6 @@ header .row{
 header .row nav ul{
   display: flex;
   list-style: none;
-  align-content: center;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -86,12 +91,16 @@ header .row nav ul{
 
 header .row nav ul li{
   padding: 10px 10px;
-  border: 1px solid black;
   margin: 0;
 }
 
 header a{
   text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  color: white;
+  line-height: 18px;
+
 }
 
 header nav a{
@@ -100,6 +109,7 @@ header nav a{
 
 .header-top .button{
   padding: 7px 10px;
+  margin-top: 10px;
 }
 
 .hero{
@@ -191,9 +201,17 @@ max-width:100% ;
   background-position: center;
 }
 
-#tecnologia .buttons{
-  line-height: 50px;
+#tecnologia .button{
+  display: inline-block;
+  background-color: #8EA1E2;
+  color: white;
+  padding: 10px 20px;
 }
+
+#tecnologia .button:hover{
+  background-color: #8ea1e29a;
+}
+
 /***************** FOOTER ********************/
 footer{
   background-color: #23272A;
