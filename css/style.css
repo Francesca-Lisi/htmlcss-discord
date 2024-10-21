@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-.debug{
-  background-color: rgba(7, 126, 173, 0.4);
-  border: 1px solid black;
-  min-height: 50px;      /******DEBUG******/
-}
 
 .container{
   max-width: 950px;
@@ -148,9 +143,9 @@ main section{
 }
 
 .pic img{
-max-width:100% ;
-
+  max-width:100% ;
 }
+
 .txt{
   width: 40%;
   padding: 30px 9%;
@@ -210,6 +205,10 @@ max-width:100% ;
 
 #tecnologia .button:hover{
   background-color: #8ea1e29a;
+}
+
+#tecnologia img{
+  max-width:100%;
 }
 
 /***************** FOOTER ********************/
@@ -286,8 +285,9 @@ footer .icons{
 word-spacing: 10px;
 }
 
-.footer.t::before{
-content: url(/img/ita.png); 
+footer .footer-t::before{
+content: url(/img/ita.png);
+/* transform: scale(.2); */
 }
 
 .end img{
