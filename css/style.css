@@ -24,7 +24,7 @@
 }
 .parag{
   font-family: Helvetica, sans-serif;
-  font-size: 10px;
+  font-size: 11px;
   color: white;
   line-height: 15px;
 }
@@ -62,6 +62,7 @@ header .row nav ul li{
   padding: 10px 10px;
   border: 1px solid black;
   margin: 0;
+
 }
 
 header a{
@@ -100,10 +101,16 @@ main section{
 
 .pic{
   width: 60%;
+  padding: 20px;
 }
 
+.pic img{
+max-width:100% ;
+
+}
 .txt{
   width: 40%;
+  padding: 30px 8%;
 }
 
 .title,.c-black{
@@ -112,6 +119,7 @@ main section{
 
 .parag,.c-black{
   color: black;
+  margin-top: 20px;
 }
 
 #invito .row, #trovarsi .row, #fandom .row{
